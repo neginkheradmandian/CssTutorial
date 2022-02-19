@@ -236,6 +236,15 @@ nav {
         }
         li.go-premium-cta {
             color: var(--primary-color);
+            border: 3px solid var(--primary-color);
+            font-weight: bold;
+            border-radius: 5em;
+            margin-top: -.2em;
+
+            &:hover {
+                background: var(--primary-color);
+                color: white;
+            }
         }
     }
 }
